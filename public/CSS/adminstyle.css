@@ -1,0 +1,16 @@
+.sorting tr:not(.home){
+    cursor: pointer;
+}
+
+#imgPreview{
+    margin: 20px;
+}
+
+#noimage{
+    width: 100px;
+    height: 100px;
+}
+
+table.alignmiddle{
+    vertical-align: middle !important;
+}

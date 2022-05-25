@@ -1,0 +1,189 @@
+*{
+    font-family: 'Kanit', sans-serif;
+}
+
+#imgPreview{
+    margin: 20px;
+}
+
+.sorting tr:not(.home){
+    cursor: pointer;
+}
+
+.pimage{
+    object-fit: cover;
+}
+
+.row.product .p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+img.spi{
+    width: 500px;
+}
+
+ul.gallery li{
+    display: inline-block;
+    margin: 20px;
+    list-style: none;
+}
+
+ul.gallery li a img{
+    width: 210px;
+}
+
+img.cpi{
+    width: 100px;
+}
+
+table.alignmiddle{
+    vertical-align: middle !important;
+}
+
+p.dontlog{
+    color: red;
+}
+
+a.logo{
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    color: black;
+    margin-left: 120px;
+}
+
+a.cat{
+    font-size: 20px;
+}
+
+.detail{
+    box-sizing: border-box;
+    width: 700px;
+    padding-left: 250px;
+    padding-top: 50px;
+}
+
+.detail p{
+    font-size: 22px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.detail p.textcat{
+    color: rgb(167, 167, 167);
+}
+
+.detail p.textprice{
+    font-size: 25px;
+}
+
+a.cart{
+    color: rgb(0, 0, 0);
+}
+
+img.bg{
+    
+    width: 100%;
+}
+
+.catebar{
+    background-color: black;
+}
+
+a.cat{
+    color: white;
+}
+
+a.cat:hover , a.logo:hover, a.cart:hover{
+    text-decoration: none;
+}
+
+.ind{
+    background-image: url("https://wallpaperaccess.com/full/680065.jpg");
+    width: 100%;
+    height: 1000px;
+    position: center;
+}
+
+.ind a{
+    margin-left: 40%;
+    margin-top: 500px;
+}
+
+a.clickhere{
+    background-color: rgb(242, 190, 0);
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 35px;
+    color: white;
+    text-decoration: none;
+}
+
+a.clickhere:hover{
+    background-color: rgb(225, 191, 68);
+    color: rgb(231, 228, 228);
+}
+
+a.gb{
+    padding-left: 20px;
+}
+
+a.gb:hover{
+    text-decoration: none;
+}
+
+section.backg{
+    background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_1824,c_limit/6ea14dc9-c3f0-4687-889d-01b2efeff425/nike-just-do-it.png");
+    background-position: center;
+    width: 100%;
+    height: 800px;
+}
+
+.showin{
+    margin-top: 110px;
+    background-color: rgb(193, 193, 193);
+    opacity: 0.85;
+    width: 800px;
+    position: center;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p.textintro{
+    color: rgb(48, 48, 48);
+}
+
+a.choose{
+    text-decoration: none;
+    border-radius: 30px;
+    background-color: rgb(0, 0, 0);
+    font-size: large;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(255, 255, 255);
+}
+
+a.choose:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.he{
+    margin-right: 20px;
+}
+
+.he li{
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+.sea{
+    margin-left: 40px;
+}
