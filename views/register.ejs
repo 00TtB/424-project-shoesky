@@ -1,0 +1,35 @@
+<%- include("_layouts/header.ejs") %>
+<div class="container">
+<h1><%= title %></h1>
+<br>
+<form action="/users/register" method="POST">
+    <div class="mb-3">
+        <label class="form-label">Name</label>
+        <input type="text" class="form-control" name="name" placeholder="Name">
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Email</label>
+        <input type="text" class="form-control" name="email" placeholder="Email">
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Username</label>
+        <input type="text" class="form-control" name="username" placeholder="Username">
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Password</label>
+        <input type="password" class="form-control" name="password" placeholder="Password">
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Confirm Password</label>
+        <input type="password" class="form-control" name="password2" placeholder="Confirm Password">
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Address</label>
+        <input type="textarea" class="form-control" name="address" placeholder="Address">
+    </div>
+    <button type="submit" class="btn btn-primary">Register</button>
+    <a class="gb" href="/">Go back</a>
+</form>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br>
+<%- include("_layouts/footer.ejs") %>

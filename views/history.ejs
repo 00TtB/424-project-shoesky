@@ -1,0 +1,30 @@
+<%- include("_layouts/header.ejs") %>
+
+<div class="container">
+    <h1 class="page-title">History</h1>
+    <br><br>
+    <table class="table table-striped sorting">
+        <thead>
+            <tr class="home">
+                <th>name</th>
+                <th>address</th>
+                <th>cardnum</th>
+                <th></th>
+            </tr>
+        </thead>
+        
+        <% order.forEach(function(order){ %>
+            <tr>
+                <td><%= order.name %></td>
+                <td><%= order.address %></td>
+                <td><%= order.cardnum %></td>
+                <td>
+                    <a href="/cart/vieworder/<%= order._id %>">view orders</a>
+                </td>
+            </tr>
+            
+        <% }); %>
+    </table>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<%- include("_layouts/footer.ejs") %>
